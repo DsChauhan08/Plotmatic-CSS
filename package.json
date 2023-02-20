@@ -3,7 +3,16 @@
   "version": "0.1.0",
   "description": "Open source CSS framework for data visualization.",
   "author": "Dhananjay Singh Chauhan",
-  "homepage": "https://plotmaticcss.netlify.app/",
+  "homepage": "https://github.com/DsChauhan08/Plotmatic-CSS",
+  "license" : "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChartsCSS/charts.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DsChauhan08/Plotmatic-CSS/issues",
+    "email": "singhdschauhan10@gmail.com"
+  },
   "keywords": [
     "css",
     "html",
