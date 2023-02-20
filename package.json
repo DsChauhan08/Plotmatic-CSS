@@ -1,10 +1,9 @@
 {
-  "name": "charts.css",
-  "version": "0.9.0",
+  "name": "plotmatic-CSS",
+  "version": "0.1.0",
   "description": "Open source CSS framework for data visualization.",
-  "author": "Rami Yushuvaev",
-  "homepage": "https://ChartsCSS.org/",
-  "license": "MIT",
+  "author": "Dhananjay Singh Chauhan",
+  "homepage": "https://plotmaticcss.netlify.app/",
   "keywords": [
     "css",
     "html",
@@ -29,6 +28,9 @@
     "css-minify-fix": "postcss dist/charts.min.css --use postcss-pseudo-element-colons --no-map --output dist/charts.min.css",
     "watch": "nodemon -e scss,html --watch src --exec \"npm run build\""
   },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+},
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "cssnano": "^5.0.1",
