@@ -1,0 +1,86 @@
+/*
+ * Chart labels
+ */
+.charts-css {
+
+  &.bar {
+
+    &:not(.show-labels) {
+      --labels-size: 0;
+
+      tbody tr th {
+        @include visually-hidden();
+      }
+    }
+    &.show-labels {
+      --labels-size: 80px;
+
+      tbody tr th {
+        display: flex;
+        justify-content: center;
+        align-items: var(--labels-align, center);
+        flex-direction: column;
+      }
+
+      tr.hide-label th,
+      th.hide-label {
+        @include visually-hidden();
+      }
+    }
+
+  }
+
+  &.column,
+  &.area,
+  &.line {
+
+    &:not(.show-labels) {
+      --labels-size: 0;
+
+      tbody tr th {
+        @include visually-hidden();
+      }
+    }
+    &.show-labels {
+      --labels-size: 1.5rem;
+
+      tbody tr th {
+        display: flex;
+        justify-content: center;
+        align-items: var(--labels-align, center);
+        flex-direction: column;
+      }
+
+      tr.hide-label th,
+      th.hide-label {
+        @include visually-hidden();
+      }
+    }
+
+  }
+
+  // Align Labels
+  &.bar,
+  &.column,
+  &.area,
+  &.line {
+
+    &.labels-align-start {
+      tbody tr th {
+        align-items: var(--labels-align, flex-start);
+      }
+    }
+    &.labels-align-end {
+      tbody tr th {
+        align-items: var(--labels-align, flex-end);
+      }
+    }
+    &.labels-align-center {
+      tbody tr th {
+        align-items: var(--labels-align, center);
+      }
+    }
+
+  }
+
+}

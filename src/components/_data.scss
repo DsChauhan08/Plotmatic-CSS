@@ -1,0 +1,45 @@
+/*
+ * Chart data
+ */
+.charts-css {
+
+  &.hide-data {
+
+    .data,
+    .data:not(:focus):not(:focus-within) {
+      @include visually-hidden();
+    }
+
+  }
+
+  &.show-data-on-hover {
+
+    .data {
+      transition-duration: .3s;
+      opacity: 0;
+    }
+
+    tr:hover .data {
+      transition-duration: .3s;
+      opacity: 1;
+    }
+
+  }
+
+  &.radial,
+  &.pie,
+  &.polar,
+  &.radar {
+
+    &.show-data-on-hover {
+
+      tbody:hover .data {
+        transition-duration: .3s;
+        opacity: 1;
+      }
+
+    }
+
+  }
+
+}
