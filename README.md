@@ -94,9 +94,6 @@ The framework offers developers flexibility. You choose what components to displ
 
 The key feature is the ability to customize everything using basic CSS. Frontend developers can target any HTML element and customize it. This philosophical guideline is what makes the framework so flexible, easy and fun to use.
 
-## Questions
-
-For questions and support please use the [official forum](https://github.com/PlotmaticCSS/discussions) on GitHub.
 
 ## Liked PlotmaticCSS?
 
