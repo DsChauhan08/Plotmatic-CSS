@@ -96,7 +96,7 @@ The key feature is the ability to customize everything using basic CSS. Frontend
 
 ## Questions
 
-For questions and support please use the [official forum](https://github.com/ChartsCSS/PlotmaticCSS/discussions) on GitHub.
+For questions and support please use the [official forum](https://github.com/PlotmaticCSS/discussions) on GitHub.
 
 ## Liked PlotmaticCSS?
 
