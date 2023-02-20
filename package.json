@@ -1,10 +1,10 @@
 {
   "name": "plotmatic-CSS",
-  "version": "0.1.0",
+  "version": "1.0.12",
   "description": "Open source CSS framework for data visualization.",
   "author": "Dhananjay Singh Chauhan",
   "homepage": "https://github.com/DsChauhan08/Plotmatic-CSS",
-  "license" : "BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChartsCSS/charts.css.git"
@@ -38,8 +38,8 @@
     "watch": "nodemon -e scss,html --watch src --exec \"npm run build\""
   },
   "publishConfig": {
-  "registry": "https://npm.pkg.github.com"
-},
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "cssnano": "^5.0.1",
