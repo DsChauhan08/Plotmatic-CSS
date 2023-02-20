@@ -1,6 +1,7 @@
 {
   "name": "plotmatic-CSS",
-  "version": "1.0.12",
+  "version": "1.0.1",
+  "private": false,
   "description": "Open source CSS framework for data visualization.",
   "author": "Dhananjay Singh Chauhan",
   "homepage": "https://github.com/DsChauhan08/Plotmatic-CSS",
